@@ -1,0 +1,8 @@
+
+not a syslog line
+Mar 15 10:23:45 hostA sshd[12341]:
+Mar 15 10:23:45 hostA sshd[]: Failed password for root from 1.2.3.4 port 22 ssh2
+Mar 15 10:23:45 hostA sshd[12341]: Failed password for root from 1.2.3.4 port abc ssh2
+Mar 15 10:23:45 hostA notsshd[12341]: Failed password for root from 1.2.3.4 port 22 ssh2
+Mar 32 10:23:45 hostA sshd[12341]: Failed password for root from 1.2.3.4 port 22 ssh2
+
